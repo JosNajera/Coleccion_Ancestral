@@ -1,6 +1,6 @@
-const numArticles = '6,162';
-const numJournals = '932';
-const numCountries = '22';
+const numArticles = '24,212';
+const numJournals = '1299';
+const numCountries = '26';
 
 export const Numeraries = {
     numArticles,

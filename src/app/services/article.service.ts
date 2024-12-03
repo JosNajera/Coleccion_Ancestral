@@ -106,6 +106,6 @@ export class ArticleService {
     return articlesExists;
   }
   getLastArticles(): any {
-    return this.http.get(`${this.url}articulos/climatico2/recientes/20/fechaAltaArticuloM/1`);
+    return this.http.get(`${this.url}articulos/ancestral/recientes/20/fechaAltaArticuloM/1`);
   }
 }

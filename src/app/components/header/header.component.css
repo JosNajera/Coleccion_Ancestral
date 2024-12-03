@@ -33,7 +33,7 @@
 .text-part {
   background-color: #ff3333;
   color: white;
-  width: 66%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

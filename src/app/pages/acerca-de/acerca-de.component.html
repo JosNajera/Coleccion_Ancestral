@@ -1,41 +1,62 @@
-<section id="general">
+<app-header [currentSection]="'header.acerca.genero'"></app-header>
 
-    <section id="header">
-        <app-header [currentSection]="'header.acerca.genero'"></app-header>
-    </section>
+<section id="searches">
+    <app-banner-searches [sectionAbout]=true></app-banner-searches>
+</section>
 
-    <section id="searches">
-        <app-banner-searches [sectionAbout]=true></app-banner-searches>
-    </section>
+<section id="container-banner">
+    <div id="container-secundary-banner">
+        <div class="title">
+            <p>{{ 'estatica.proyecto' | translate }}</p>
+            <div class="subtitle">
+                <p>{{ 'estatica.ancestral' | translate }}</p>
+            </div>
+        </div>
 
-    <section id="content-about">
-        <div>
-            <h1>
-                {{ 'estatica.titulo1' | translate }}
-            </h1>
+        <div class="text-banner">
+            <p>
+                {{ 'estatica.objetivo' | translate }}
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="container-nube">
+    <div>
+        <div class="text-position text-left">
             <p>
                 {{ 'estatica.parrafo1' | translate }}
             </p>
-            <h1>
-                {{ 'estatica.titulo2' | translate }}
-            </h1>
             <p>
                 {{ 'estatica.parrafo2' | translate }}
             </p>
-            <h1>
-                {{ 'estatica.titulo3' | translate }}
-            </h1>
+        </div>
+        <div>
+            <img class="img-right" src="assets/img/home/maguey-circulo2.jpg">
+        </div>
+    </div>
+
+
+
+    <div class="text-position text-right">
+
+        <div>
             <p>
                 {{ 'estatica.parrafo3' | translate }}
             </p>
+            <br>
             <p>
                 {{ 'estatica.parrafo4' | translate }}
             </p>
+
+            <br>
+
         </div>
 
-    </section>
-
-    <section id="footer">
-        <app-footer></app-footer>
-    </section>
+    </div>
+    <div> <img class="img-left " src="assets/img/home/machupichu-circulo2.jpg "> </div>
 </section>
+
+
+
+<app-footer></app-footer>

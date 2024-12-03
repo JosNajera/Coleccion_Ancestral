@@ -45,13 +45,13 @@ export class MapComponent implements OnInit {
     let polygonTemplate = polygonSeries.mapPolygons.template;
     // polygonTemplate.tooltipText = '{name}';
     polygonTemplate.polygon.fillOpacity = 0.6;
-    polygonTemplate.fill = am4core.color('#a3b3a7');
+    polygonTemplate.fill = am4core.color('#224a8c');
     // let hs = polygonTemplate.states.create('hover');
     // hs.properties.fill = am4core.color('#74X999');
 
     let imageSeries = this.chart.series.push(new am4maps.MapImageSeries());
     imageSeries.dataFields.value = 'value';
-    imageSeries.fill = am4core.color('#3f7e44');
+    imageSeries.fill = am4core.color('#090a35');
 
     let imageTemplate = imageSeries.mapImages.template;
     imageTemplate.propertyFields.latitude = 'latitude';
@@ -69,7 +69,7 @@ export class MapComponent implements OnInit {
     circle.urlTarget = '_blank';
     circle.url = this.urlProject + '#/busqueda-pais/{clave}';
 
-    imageSeries.dataSource.url = this.urlProject + 'assets/json/paisesClimatico2.json';
+    imageSeries.dataSource.url = this.urlProject + 'assets/json/paises.json';
     // imageSeries.dataSource.data = this.countrys;
     imageSeries.dataSource.parser = new am4core.JSONParser();
     console.log(imageSeries.dataSource.data);

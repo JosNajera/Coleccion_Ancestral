@@ -31,7 +31,7 @@
     },
     "navegacion": {
         "total": "<span class='number'>{{ articles }} </span> artículos extraídos de <span class='number'>{{ journals }}</span> revistas indexadas de <span class='number'>{{ countries }}</span> países",
-        "total.busqueda": "Más de <span class='number'>{{ articles }} artículos</span>",
+        "total.busqueda": "Más de ",
         "buscador": "Búsqueda de artículos a texto completo",
         "clave": "Artículos por palabra clave",
         "conocimiento": "Representación del conocimiento",
@@ -47,7 +47,7 @@
     "home": {
         "buscar": "Buscar",
         "mensaje": "El Acceso Abierto Diamante al servicio de los Objetivos de Desarrollo Sostenible",
-        "mensaje1": "17 objetivos para transformar nuestro mundo",
+        "mensaje1": "Por un modelo de publicación sin fines de lucro para conservar la naturaleza académica y abierta de la comunicación científica.",
         "recientes": "Publicaciones recientes",
         "mas": "Ver más artículos",
         "cargando": "Cargando Artículos...",
@@ -89,17 +89,17 @@
         }
     },
     "estatica": {
-        "titulo1": "CONTEXTO ",
-        "parrafo1": "Se denomina cambio climático a la variación global del clima de la Tierra. A pesar de que las emisiones de gases de efecto invernadero han caído debido a las restricciones de movimiento y las recesiones económicas derivadas de la pandemia de la COVID-19, el cambio climático no se va a pausar. Es necesario tomar medidas urgentes para abordar la emergencia climática con el fin de salvar vidas y medios de subsistencia.",
-        "titulo2": "DESCRIPCIÓN",
-        "parrafo2": "De acuerdo a los objetivos de la agenda 2030 sobre el desarrollo sostenible, Redalyc se une a los esfuerzos de cientos de instituciones y países para construir un mundo mejor. En está ocasión la aportación es la colección semántica de  Acción por el Clima, que tiene como objetivo consolidar contenidos científicos publicados en revistas indexadas de Acceso abierto Redalyc sobre temas como: cambio climático, deterioro ambiental, emisiones de gases de efecto invernadero, entre otros.",
-        "titulo3": "METODOLOGÍA ",
-        "parrafo3": "La Colección de Acción por el Clima se construyó a partir de la base de datos de Redalyc.org,que indexa revistas de acceso abierto no comerciales de calidad certificada .  La Colección de Acción por el Clima está compuesta por X  artículos científicos que incluyen conceptos y relaciones así como sus atributos. Los artículos que componen está colección son el resultado de  aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base al tesauro de términos oficial de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y  Organización de las Naciones Unidas (ONU).",
-        "parrafo4": "El conjunto de datos resultante se transforma a través de un proceso para extraer los metadatos que componen un artículo científico y luego se almacenan en forma de tripletas en una base de conocimiento articulada a Linked Open Data."
+        "proyecto": "Proyecto",
+        "ancestral": "Conocimiento Ancestral",
+        "objetivo": "Tiene por objetivo integrar los contenidos científicos publicados en las revistas de Acceso Abierto que indexa Redalyc correspondientes a temáticas como: conocimiento indígena, pueblos y culturas indígenas, lenguas nativas, agricultura ancestral, entre otros.",
+        "parrafo1": "La Colección de Conocimiento Ancestral (CCA) fue construida a partir de la base de datos de Redalyc.org, sistema que indiza revistas de Acceso Abierto no comercial de calidad certificada. La CCA está compuesta por miles de artículos resultantes de aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base en un tesauro de términos. El conjunto de datos resultante es transformado a través de un proceso para extraer el significado de los diferentes datos que componen un artículo científico y posteriormente es almacenado en forma de tripletas en una base de conocimiento articulada a Linked Open Data.",
+        "parrafo2": "Este proyecto fue realizado gracias al apoyo obtenido de la fundación Shuttleworth a través de un Flash Grantee otorgado en diciembre de 2019 a la Dra. Arianna Becerril García así como por personal de Redalyc de la Universidad Autónoma del Estado de México.",
+        "parrafo3": "La CCA tiene por objetivo integrar los contenidos científicos publicados en las revistas de Acceso Abierto que indexa Redalyc correspondientes a temáticas como: conocimiento indígena, pueblos y culturas indígenas, lenguas nativas, agricultura ancestral, entre otros.",
+        "parrafo4": "El portal muestra la colección a través de motores de búsqueda, una visualización de la representación del conocimiento obtenido que a su vez es un navegador de artículos por tema, así como también pone a disposición para consulta y descarga el dataset a través de un endpoint SPARQL."
     },
     "general": {
         "spinner": "Cargando resultados de búsqueda...",
-        "proyecto": "Colección Semántica de Acción por el Clima",
+        "proyecto": "Conocimiento Ancestral",
         "titulo": "Colección Semántica Redalyc",
         "titulo2": "para los Objetivos del Desarrollo Sostenible",
         "subtitulo": "13 ACCIÓN POR EL CLIMA"

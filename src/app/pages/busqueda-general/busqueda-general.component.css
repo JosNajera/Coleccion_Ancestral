@@ -55,7 +55,7 @@
 }
 
 .text-filters {
-    background-color: #3f7e44;
+    background-color: #4762b2;
     color: white;
     display: flex;
     align-items: center;
@@ -81,12 +81,12 @@
 }
 
 .selected {
-    color: #3f7e44;
+    color: #4762b2;
     cursor: default;
 }
 
 .activate {
-    color: #3f7e44;
+    color: #4762b2;
 }
 
 .select {

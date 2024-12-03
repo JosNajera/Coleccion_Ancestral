@@ -1,13 +1,13 @@
 <div id="searches">
     <div class="title-virus">
-        <img target="_blank" src="assets/img/icons/icono-mundo.png" alt="">
+        <img target="_blank" src="assets/img/icons/icono-virus.png" alt="">
         <span>
-            <a [routerLink]="['/home']" class="link">{{ 'general.proyecto' | translate }}</a>
+            <a [routerLink]="['/home']" class="link">{{ 'estatica.proyecto' | translate }}{{'estatica.ancestral' | translate}}</a>
         </span>
         <span class="pipe-title-virus">
             | 
         </span>
-        <span [innerHTML]="'navegacion.total.busqueda' | translate: { articles: ('6, 000') }"></span>
+        <span [innerHTML]="'navegacion.total.busqueda' | translate: { articles: ('24, 212') }"></span>
     </div>
     <div class="navigation-searches">
         <a class="link" [routerLink]="['/busqueda-general']" [ngClass]="{'selected-searcher': sectionGeneral}">

@@ -31,7 +31,7 @@
     },
     "navegacion": {
         "total": "More than <span class='number'>{{ articles }} articles</span> extracted from <span class='number'>{{ journals }} journals</span> in <span class='number'>{{ countries }} countries</span>",
-        "total.busqueda": "More than <span class='number'>{{ articles }} articles</span>",
+        "total.busqueda": "More than ",
         "buscador": "Search for full-text articles",
         "clave": "Articles by keyword",
         "conocimiento": "Knowledge representation",
@@ -47,7 +47,7 @@
     "home": {
         "buscar": "Search",
         "mensaje": "The Diamond Open Access at the service of the Sustainable Development Goals",
-        "mensaje1": "17 goals to transform our world",
+        "mensaje1": "For a non-for-profit publishing model to keep the academic and open nature of the scientific communication",
         "recientes": "Recent publications",
         "mas": "Display more articles",
         "cargando": "Loading Articles...",
@@ -89,17 +89,17 @@
         }
     },
     "estatica": {
-        "titulo1": "CONTEXT",
-        "parrafo1": "Climate change is defined as the global variation in the climate of the Earth. Although greenhouse gas emissions have decreased due to movement restrictions and recessions derived from the COVID-19 pandemic, climate change is not going to pause. Urgent  measures are needed to deal with the climate emergency with the aim of saving lives and livelihood.",
-        "titulo2": "DESCRIPTION",
-        "parrafo2": "In accordance with the objectives of the 2030 agenda on sustainable development, Redalyc joint the efforts of institutions and countries to build a better world. In this occasion, the contribution is the semantic collection on Climate Action, which has the aim of consolidating scientific contents published in indexed journals of Open Access Redalyc on topics such as: climate change, environmental degradation, greenhouse gas emissions, among others.",
-        "titulo3": "METHODOLOGY",
-        "parrafo3": "The Climate Action Collection was built from the database of Redalyc.org which indexes non-commercial open access journals of certified quality. The Climate Action Collection has X scientific articles which includes concepts and relationships as well as their attributes. The articles that are part of this collection are the result of applying a series of algorithms that makes a curatorship automatically based on an official thesaurus of terms of the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations (UN).",
-        "parrafo4": "The resulting dataset is transformed through a process to extract metadata that make up a scientific article and then, they are stored in groups of three in an articulated knowledge base to Linked Open Data."
+        "proyecto": "Project",
+        "ancestral": "Ancestral Knowledge",
+        "objetivo": "Its objective is to integrate the scientific content published on the Open Access journals that Redalyc indexes corresponding to themes like: Indigenous Knowledge, tribes and native cultures, native tongues, ancestral agriculture, among others.",
+        "parrafo1": "The Ancestral Knowledge Collection (AKC) was built from the Redalyc.org database, system that indexes non-commercial Open Access journals of certified quality. The AKC is composed of thousands of art icles that came from applying a series of algorithms that perform an automatic content curation based on a thesaurus of terms. The resulting data set is transformed though a process that extracts the meaning of the different data that comprises a scientific article and is later stored in the form of triples in a knowledge base linked to Linked Open Data.",
+        "parrafo2": "This project was developed thanks to the support obtained  from the Shuttleworth Foundation through a Flash Grantee granted in December 2019 to Dr. Arianna Becerril García as well as to REdalyc staff from the Autonomous University of the State of Mexico.",
+        "parrafo3": "The AKC has for objective to integrate the scientific content published in the Open Access journals that REdalyc indexes corresponding to themes like: Indigenous Knowledge, tribes and native cultures, native tongues, ancestral agriculture, among others.",
+        "parrafo4": "This portal shows the collection through search engines, a visual representation of the knowledge obtained that operates at the same time as a themed article browser, as well as making the data set available for consultation and download through a SPARQL endpoint."
     },
     "general": {
         "spinner": "Loading search results...",
-        "proyecto": "Semantic Collection for Climate Action",
+        "proyecto": "Ancestral Knowledge",
         "titulo": "Redalyc Semantic Collection",
         "titulo2": "for the Sustainable Development Goals",
         "subtitulo": "13 CLIMATE ACTION"

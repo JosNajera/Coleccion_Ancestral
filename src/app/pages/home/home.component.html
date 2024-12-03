@@ -29,13 +29,13 @@
 <section id="searcher">
     <div id="container">
         <div id="central-container">
-            <div id="container-title">
+           <!-- <div id="container-title">
                 <div id="container-title-search">
                     <div class="title-search">{{ 'general.titulo' | translate}}</div>
                     <div class="subtitle-search">{{ 'general.titulo2' | translate}}</div>
                     <div class="title-search">{{ 'general.subtitulo' | translate}}</div>
                 </div>
-            </div>
+            </div>-->
             <div id="container-searcher">
                 <div id="text-search"><span>{{ 'navegacion.buscador' | translate }}</span></div>
                 <div id="search">
@@ -50,6 +50,7 @@
                 </div> -->
                 <div id="new-number">
                     <p class="parrafo-number">
+                        {{'navegacion.total.busqueda' | translate}}
                         <span class="numbers">
                             {{ numArticulos }}
                         </span>
@@ -141,21 +142,19 @@
     </div>
 </section>
 <section id="map">
-    <div style="width: 90%; font-size: 16pt; font-family: 'Barlow-Regular'; margin: 30px auto; color: black;">
+    <div style="width: 90%; font-size: 16pt; font-family: 'Barlow-Regular'; margin: 30px auto; color: white;">
         {{'navegacion.pais' | translate}}</div>
     <div>
         <app-map></app-map>
     </div>
 </section>
 <section id="last-numbers">
-    <div style="width: 90%; font-size: 16pt; font-family: 'Barlow-Regular'; margin: 30px auto; color: #1A1A1A;">
-        {{'home.recientes' | translate}}</div>
+    <div style="width: 90%; font-size: 16pt; font-family: 'Barlow-Regular'; margin: 30px auto; color: #1A1A1A;">{{'home.recientes' | translate}}</div>
     <div id="container-title">
-        <div class="title-section"><img src="assets/img/home/ic-articulos.png" alt=""> &nbsp;&nbsp; {{
-            'busqueda.secciones.principal' | translate}}</div>
+        <div class="title-section"> &nbsp;&nbsp;  {{ 'busqueda.secciones.principal' | translate}}</div>
         <div id="buttons-carrusell">
-            <div (click)="leftScroll()" class="button-carrusell"><img src="assets/img/home/izquierda.png" alt=""></div>
-            <div (click)="rightScroll()" class="button-carrusell"><img src="assets/img/home/derecha.png" alt=""></div>
+            <div (click)="leftScroll()" class="button-carrusell"><i class="fas fa-angle-left" style="color: #ff660c;"></i></div>
+            <div (click)="rightScroll()"class="button-carrusell"><i class="fas fa-angle-right" style="color: #ff660c;"></i></div>
         </div>
     </div>
     <div id="container-last-articles">
@@ -168,12 +167,12 @@
             <p id="titulo-sparql">{{'navegacion.sparql' | translate}}</p>
             <br>
             <p
-                [innerHTML]="'home.sparql' | translate: { value: ('http://sparql.amelica.org/knowledgebase/climateaction/datastore')}">
+                [innerHTML]="'home.sparql' | translate: { value: ('http://sparql.amelica.org/knowledgebase/ancestral/datastore')}">
             </p>
         </div>
         <div id="container-data">
             <div id="container-id">
-                <iframe src="http://sparql.amelica.org/knowledgebase/climateaction/datastore" frameborder="0"
+                <iframe src="http://sparql.amelica.org/knowledgebase/ancestral/datastore" frameborder="0"
                     width="100%" height="100%"></iframe>
             </div>
         </div>
